@@ -3,4 +3,6 @@ on:
   workflow_dispatch:
   push:
     branches: [ main ]
+  pull_request:
+    branches: [ main ]
 # [Pozostała część konfiguracji workflow .NET znajduje się w dokumentacji źródłowej]
