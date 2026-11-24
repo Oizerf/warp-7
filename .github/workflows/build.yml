@@ -1,15 +1,6 @@
 ﻿name: Build .NET project
-
 on:
   workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Confirm runner
-        shell: bash
-        run: echo "Runner is ready"
-
-      - name: Checkout repository
-        uses: actions/checkout@v4
+  push:
+    branches: [ main ]
+# [Pozostała część konfiguracji workflow .NET znajduje się w dokumentacji źródłowej]
